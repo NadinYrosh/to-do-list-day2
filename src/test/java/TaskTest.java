@@ -3,6 +3,10 @@ import static org.junit.Assert.*;
 import java.time.LocalDateTime;
 
 public class TaskTest {
+  @After
+  public void tearDown() {
+    Task.clear();
+  }
 
   @Test
   public void Task_instantiatesCorrectly_true() {
