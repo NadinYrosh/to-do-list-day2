@@ -1,14 +1,16 @@
 import java.util.ArrayList;
 
 public class Category {
-  String mName;
-  int mId;
+  private String mName;
+  private int mId;
+  private ArrayList<Task> mTasks;
   private static ArrayList<Category> instances = new ArrayList<Category>();
 
   public Category(String name) {
     mName = name;
     instances.add(this);
     mId = instances.size();
+    mTasks = new ArrayList<Task>();
   }
 
   public String getName() {
@@ -33,5 +35,13 @@ public class Category {
     } catch (IndexOutOfBoundsException e){
       return null;
     }
+  }
+
+  public void addTask(Task task) {
+    mTasks.add(task);
+  }
+
+  public ArrayList<Task> getTasks() {
+    return mTasks;
   }
 }
