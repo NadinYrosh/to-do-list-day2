@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CategoryTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-04-28T17:00:44" hostname="epicodus-92.local" time="0.002">
+<testsuite name="CategoryTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-04-28T17:57:29" hostname="epicodus-92.local" time="0.001">
   <properties/>
   <testcase name="category_instantiatesCorrectly_true" classname="CategoryTest" time="0.0"/>
   <testcase name="getTasks_initiallyRetursnEmptyList_ArrayList" classname="CategoryTest" time="0.0"/>
   <testcase name="find_returnsNullWhenNoCategoryFound_null" classname="CategoryTest" time="0.0"/>
   <testcase name="all_returnsAllInstancesOfCategory_true" classname="CategoryTest" time="0.0"/>
-  <testcase name="getName_categoryInstatiatesWithName_Home" classname="CategoryTest" time="0.0"/>
+  <testcase name="getName_categoryInstatiatesWithName_Home" classname="CategoryTest" time="0.001"/>
   <testcase name="getId_categoriesInstantiateWithAnId_1" classname="CategoryTest" time="0.0"/>
-  <testcase name="clear_emptiesALlCategoriesFromList_0" classname="CategoryTest" time="0.001"/>
+  <testcase name="clear_emptiesALlCategoriesFromList_0" classname="CategoryTest" time="0.0"/>
   <testcase name="find_returnsCategoryWithSameId_secondCategory" classname="CategoryTest" time="0.0"/>
   <testcase name="addTask_addsTaskToList_true" classname="CategoryTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
